@@ -1,4 +1,4 @@
-# Errorify for Sailor
+# Errorify for Sailor [![Build Status](https://travis-ci.org/sailorjs/sailor-errorify.svg?branch=master)](https://travis-ci.org/sailorjs/sailor-errorify)
 
 > Normalize Error for Sailor Plugins
 
