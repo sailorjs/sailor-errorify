@@ -67,7 +67,7 @@ errorify.errorValidation(object)
 
 
 
-For more information see the file `examples/index.js`
+For more information see the file [examples/index.js](https://github.com/sailorjs/sailor-errorify/blob/master/examples/index.js)
 
 ## License
 
