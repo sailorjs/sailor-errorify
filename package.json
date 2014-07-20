@@ -1,6 +1,6 @@
 {
-  "name": "sailor-responsify",
-  "description": "Unify Response System for Sailor",
+  "name": "sailor-errorify",
+  "description": "Normalize error message schema for the response",
   "version": "0.0.0",
   "author": {
     "name": "",
@@ -19,7 +19,7 @@
   "keywords": [],
   "license": "MIT",
   "main": "",
-  "repository": "sailorjs/sailor-responsify",
+  "repository": "sailorjs/sailor-errorify",
   "scripts": {
     "test": "mocha -b",
     "prepublish": "npm prune"

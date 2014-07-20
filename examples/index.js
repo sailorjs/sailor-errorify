@@ -13,16 +13,16 @@ var json = function(obj) {
  *  - Custom Error code. 500 by default
  *  - Optional message
  */
-console.log("--- ERROR ---");
-json(responsify.error());
-json(responsify.error({
-  status: '503',
-  type: 'E_CUSTOM',
-  object: ['foo', 'bar', {
-    baz: true
-  }],
-  summary: 'Error on validation'
-}));
+// console.log("--- ERROR ---");
+// json(responsify.error());
+// json(responsify.error({
+//   status: '503',
+//   type: 'E_CUSTOM',
+//   object: ['foo', 'bar', {
+//     baz: true
+//   }],
+//   summary: 'Error on validation'
+// }));
 
 /**
  * Response with Error Validation JSON, like:
@@ -32,36 +32,35 @@ json(responsify.error({
  *   · rule that validate it
  *   · message in validation
  */
-console.log("\n--- VALIDATION ERROR ---");
-var obj_one = {
-  model: "MyModel"
-};
+// console.log("\n--- VALIDATION ERROR ---");
+// var obj_one = {
+//   model: "MyModel"
+// };
 
-var attr_one = {
-  name: "attr_one",
-  rule: "rule",
-  message: "msg one"
-};
-var attr_two = {
-  name: "attr_two",
-  rule: "rule",
-  message: "msg two"
-};
+// var attr_one = {
+//   name: "attr_one",
+//   rule: "rule",
+//   message: "msg one"
+// };
+// var attr_two = {
+//   name: "attr_two",
+//   rule: "rule",
+//   message: "msg two"
+// };
 
-var obj_two = {
-  model: "MyModel",
-  attributes: [attr_one]
-};
+// var obj_two = {
+//   model: "MyModel",
+//   attributes: [attr_one]
+// };
 
-var obj_three = {
-  model: "MyModel",
-  attributes: [attr_one, attr_two]
-};
+// var obj_three = {
+//   model: "MyModel",
+//   attributes: [attr_one, attr_two]
+// };
 
-json(responsify.errorValidation(obj_one));
-json(responsify.errorValidation(obj_two));
-json(responsify.errorValidation(obj_three));
-
+// json(responsify.errorValidation(obj_one));
+// json(responsify.errorValidation(obj_two));
+// json(responsify.errorValidation(obj_three));
 
 
 /**
@@ -69,5 +68,16 @@ json(responsify.errorValidation(obj_three));
  *  - 200 status code
  *  - Optional message
  */
-
+ // console.log("\n--- SUCESS ---");
 // responsify.success();
+// responsify.success({
+//   status: 203
+// });
+// responsify.success({
+//   summary: "Great Work!"
+// });
+// responsify.success({
+//   status: 203,
+//   summary: "Great Work!"
+// });
+

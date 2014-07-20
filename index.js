@@ -1,5 +1,9 @@
-var WLError         = require ('./lib/WLError').new_WLError;
-var errorValidation    = require ('./lib/WLValidationError');
+/**
+ * Dependencies
+ */
+var WLError           = require ('./lib/WLError').new_WLError;
+var WLValidationError = require ('./lib/WLValidationError');
+var WLSuccess         = require ('./lib/WLSuccess');
 
 
 /**
@@ -7,5 +11,6 @@ var errorValidation    = require ('./lib/WLValidationError');
  */
 module.exports = {
   error           : WLError,
-  errorValidation : errorValidation
+  errorValidation : WLValidationError,
+  success         : WLSuccess
 };
