@@ -8,8 +8,7 @@
     "url": "https://github.com/sailorjs"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
-    "waterline": "^0.10.0-rc15"
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
     "should": "^4.0.4"
