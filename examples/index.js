@@ -4,11 +4,6 @@ var json = function(obj) {
   console.log(JSON.stringify(obj));
 };
 
-/**
- *  Response with standard Error JSON, like:
- *  - Custom Error code. 500 by default
- *  - Optional message
- */
 console.log("--- ERROR ---");
 json(errorify.error());
 json(errorify.error({
@@ -20,14 +15,6 @@ json(errorify.error({
   summary: 'Error on validation'
 }));
 
-/**
- * Response with Error Validation JSON, like:
- * - 400 status code
- * - Name of the model
- * - Optional number of attributes of the model, with
- *   · rule that validate it
- *   · message in validation
- */
 console.log("\n--- VALIDATION ERROR ---");
 var obj_one = {
   model: "MyModel"

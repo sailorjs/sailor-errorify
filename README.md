@@ -2,8 +2,6 @@
 
 > Normalize Error for Sailor Plugins
 
-This package is include in the sailor core
-
 ## Install
 
 ```

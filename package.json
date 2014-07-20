@@ -1,7 +1,7 @@
 {
   "name": "sailor-errorify",
-  "description": "Normalize error message schema for the response",
-  "version": "0.0.0",
+  "description": "Normalize Error for Sailor Plugins",
+  "version": "0.1.0",
   "author": {
     "name": "",
     "email": "",
