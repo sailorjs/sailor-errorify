@@ -1,18 +1,18 @@
 {
   "name": "sailor-errorify",
   "description": "Normalize Error for Sailor Plugins",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
-    "name": "",
-    "email": "",
-    "url": "https://github.com/sailorjs"
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
   },
   "dependencies": {
     "lodash": "^2.4.1"
   },
   "devDependencies": {
-    "mocha": "^1.20.1",
-    "should": "^4.0.4"
+    "mocha": "*",
+    "should": "*"
   },
   "engines": {},
   "homepage": "",
