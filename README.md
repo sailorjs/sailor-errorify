@@ -5,7 +5,7 @@
 ## Install
 
 ```
-npm install -g sailor-errorify
+npm install sailor-errorify
 ```
 
 ## Usage
