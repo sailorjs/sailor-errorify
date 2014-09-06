@@ -36,7 +36,7 @@ errorify = sailor.errorify
 
 Use in combine with [sailor-validator](https://github.com/sailorjs/sailor-validator) for validate. For example:
 
-```
+```coffeescript
 req.checkBody('email', translate.get "User.Email.NotFound").notEmpty()
 req.checkBody('password', translate.get "User.Password.NotFound").notEmpty()
 req.checkBody('password', translate.get "User.Password.Invalid").isAlphanumeric()
@@ -46,7 +46,7 @@ return next(errorify.serialize(req)) if req.validationErrors()
 
 and the output is:
 
-```
+```json
 {
     "errors": [
         {
@@ -79,7 +79,7 @@ Create a new standard error following [waterline](https://github.com/balderdashy
 
 All values can be modified with a object as argument. Example:
 
-```
+```javascript
 errorify.error({
 	error: 503,
 	status: "E_CUSTOM",
@@ -105,7 +105,7 @@ The attributes can follow the schema:
 
 Example:
 
-```
+```javascript
 var attr = {
   name: "attr_one",
   rule: "rule",
