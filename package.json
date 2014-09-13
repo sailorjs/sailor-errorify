@@ -22,7 +22,6 @@
     "serializer"
   ],
   "license": "MIT",
-  "main": "",
   "repository": "sailorjs/sailor-errorify",
   "scripts": {
     "test": "sh test/test.sh"
