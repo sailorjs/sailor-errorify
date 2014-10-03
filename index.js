@@ -1,10 +1,11 @@
 /**
  * Dependencies
  */
-var expressValidator  = require('express-validator-errors');
-var _                 = require('lodash');
+var _                = require('lodash');
+var util             = require("./lib/util");
+var expressValidator = require('express-validator-errors');
 
-var errorify = _.assign(expressValidator, {});
+var errorify = _.assign(expressValidator, util);
 
 /**
  * Exports
