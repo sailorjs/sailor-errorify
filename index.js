@@ -1,11 +1,15 @@
 /**
  * Dependencies
  */
-var _                = require('lodash');
-var util             = require("./lib/util");
+var CoffeeScript    = require("coffee-script");
 var expressValidator = require('express-validator-errors');
+var _                = require('lodash');
+var ErrorGenerator   = require("./lib/ErrorGenerator");
 
-var errorify = _.assign(expressValidator, util);
+// Register CoffeeScript if exits
+if(CoffeeScript.register) CoffeeScript.register();
+
+var errorify = _.assign(expressValidator, ErrorGenerator);
 
 /**
  * Exports

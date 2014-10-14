@@ -15,10 +15,11 @@ run() {
   --compilers coffee:coffee-script/register \
   --require should \
   --reporter spec \
-  --timeout 50000 \
+  --timeout 80000 \
   --slow 300 \
   "$@"
 }
 
 ## Main
-welcome && run
+welcome && run \
+test/test.coffee

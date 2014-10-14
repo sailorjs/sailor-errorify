@@ -8,11 +8,11 @@
     "url": "https://github.com/Kikobeats"
   },
   "dependencies": {
+    "coffee-script": "*",
     "express-validator-errors": "*",
-    "lodash" : "*"
+    "lodash": "*"
   },
   "devDependencies": {
-    "coffee-script": "*",
     "mocha": "*",
     "should": "*"
   },
