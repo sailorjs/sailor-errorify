@@ -21,9 +21,9 @@ class ErrorGenerator
 
   ## -- API ---------------------------------------------------------------
 
-  @add: (param, message, value, expected=undefined) ->
+  @add: (param, message, value) ->
     @_init() unless isInitialize
-    @_addError(param, message, value) if value is expected
+    @_addError(param, message, value)
     this
 
   @end: (res, type) ->
