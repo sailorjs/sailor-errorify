@@ -56,6 +56,5 @@ In this case return a `notFound` response:
 
 ## License
 
-MIT © [Kiko Beats](http://kikobeats.com/)
-
+MIT © sailorjs
 
